@@ -34,8 +34,8 @@
    ```
 5. Произведите миграции (миграции уже приложены) и запустите сервер бэкенда:
     ```
-    poetry run python manage.py migrate
-    poetry run python manage.py runserver 
+    python manage.py migrate
+    python manage.py runserver 
     ```
 6. Наполните БД данными. Для этого нужно из консоли корня проекта вызвать выполнение функции следующим образом:
     ```
