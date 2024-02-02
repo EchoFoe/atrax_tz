@@ -16,9 +16,9 @@
    git clone https://github.com/EchoFoe/atrax_tz.git
    ```
 
-2. Создайте виртуальное окружение в корне проекта и установите зависимости
+2. Создайте виртуальное окружение в корне проекта (зависит от вашей ОС) и установите зависимости
    ```
-   python -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 3. Создайте БД (postgres), создайте файл `.env` (использует python-dotenv) в корне проекта и укажите свои конфиги
     ```
