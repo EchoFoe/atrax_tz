@@ -13,7 +13,7 @@
 
 1. Клонировать проект:
    ```
-   git clone https://github.com/EchoFoe/
+   git clone https://github.com/EchoFoe/atrax_tz.git
    ```
 
 2. Создайте виртуальное окружение в корне проекта и установите зависимости
