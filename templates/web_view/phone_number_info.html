@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Информация о номере телефона</title>
+</head>
+<body>
+    <h2>Информация о номере телефона {{ msisdn }}</h2>
+    <p>Оператор: {{ operator }}</p>
+    <p>Регион: {{ region }}</p>
+    <br>
+    <a href="{% url 'phonebook_web:home' %}">Назад</a>
+</body>
+</html>
